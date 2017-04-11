@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bg-header{
+    background-image: url("../img/forest-cover.jpg");
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    padding-top: 30px;
+}
+header a{
+    text-decoration: none;
+    color: cornflowerblue; 
+} 
+header a:hover{
+    color: blue;
+}  
+.logo{
+    float: left;
+}
+.nav{
+    float: right;
+    margin: 0;
+}
+ul.nav li{
+    display: inline-block;
+    margin-left: 30px;
+    
+}
+ul.nav li:first-child{
+    margin:0;
+}
+.textcenter{
+    /*display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;*/
+    text-align: center;
+}
+.banner-container{
+    margin-top:200px;
+    color:white;
+}
+.banner-container button{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.banner-container button:hover{
+    background-color: #7958ff;
+}
+.banner-container button:active{
+    height: 100px;
+    bottom: 50px;
+}
+.row{
+    overflow: hidden;
+}
+.col6{
+    width: 50%;
+    float: left;
+    padding: 15px; 
+
+}
+.img-responsive{
+    max-width: 100%;
+}
+h2{
+    color: #217fcf;
+}
+.col4{
+    width: 33.333%;
+    float: left;
+    padding: 15px;
+    
+}
+.img-circle{
+    border-radius: 50%;
+}
+
+

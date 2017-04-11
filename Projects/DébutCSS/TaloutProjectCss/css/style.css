@@ -1,0 +1,24 @@
+header{
+    background-color: orange;
+}
+
+img{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+ul{
+    float: right;
+    margin-right: 15px;
+}
+
+li{
+    display: inline;
+    margin-right: 10px;
+    padding: 5px;
+}
+.width{
+    float: left;
+    width: 33%;
+}

@@ -1,0 +1,16 @@
+Exercice css:
+
+Veuillez tenter de reproduire la page Softivo.
+Pour cela,vous trouverez un fichier "layout" une image du resultat attendu.
+
+Dans le dossier public se trouve un fichier "index.html" déjà fait (n'y faite donc aucun changement).
+Dans le dossier se trouve un fichier "style.css" VIDE.
+Ps: il y'a un fichier "normalize.css", n'y touchez pas et aller voir sur le net à quoi il sert (Ne perdez pas de votre temps pour me demander ce que c'est)
+Vous trouverez toutes les photos utilisées dans le dossier img.
+
+L'exercice consiste donc à remplir le fichier css pour arriver à la copie la plus conforme possible du layout.
+Attention, si vous n'arrivez pas a reproduire à l'identique le css, ce n'est pas la fin du monde. 
+Le principale et d'arriver à une copie la plus ressemblante possible.
+
+Pour ceux qui souhaitent un challenge supplémentaire. Supprimez le fichier html et refaite tout de zéro!!
+Je vous communiquerai la correction plus tard.

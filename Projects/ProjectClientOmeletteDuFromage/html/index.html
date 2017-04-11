@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../vendor/bootstrap-3.3.7/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+
+            <a class="navbar-brand" href="#">Cooking Schhol</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Omelette du fromage</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </nav>
+    <div class="container">
+        <div class="jumbotron">
+
+            <div class="row">
+                <div class="col-md-6" id="cuisine">
+                    <h1>Cooking School</h1>
+                    <p id="nom2">Salut apprenti cuisto. Commence par te présenter</p>
+                    <div id="hide">
+                        <input id="fromage"  type="text" name="search" placeholder="Omelette du fromage">
+                        <input id="go" type="submit" value="Let's go">
+                    </div>
+                </div>
+                <div class="col-md-6" id="dexter">
+                    <img id="omelette" src="../assets/img/omelette-du-fromage.png" alt="">
+                </div>
+            </div>
+            <h3 id="nom"></h3>
+        </div>
+    </div>
+
+    </div>
+  <div  class="container invis">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="list-group">
+                    <a href="#" data-order="0" class="list-group-item rempli"> Versez la farine dans un plat.</a>
+                    <a href="#" data-order="4" class="list-group-item rempli">Battez les œufs avec une fourchette. Ajoutez-les à la pâte en mélangeant soigneusement. </a>
+                    <a href="#" data-order="3" class="list-group-item rempli"> Mélangez jusqu’à incorporation complète.</a>
+                    <a href="#" data-order="6" class="list-group-item rempli">Laissez reposer deux heures cette pâte qui doit être coulante.</a>
+                    <a href="#" data-order="1"class="list-group-item rempli">Creusez-y un puits dans lequel vous verserez le sucre, le sel et le beurre (ou l’huile).</a>
+                    <a href="#" data-order="2" class="list-group-item rempli">Ajoutez la moitié du liquide.</a>
+                    <a href="#"  data-order="5"class="list-group-item rempli">Versez petit à petit le reste du liquide.</a>
+                    <img id="win" src="../assets/img/win.gif" alt="">
+                    <img id="loose" src="../assets/img/loose.gif" alt="">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div id="newlist">
+              
+                </div>
+                <button id="reponse" type="submit">Vérifiez votre réponse</button>
+            </div>
+
+    <script src="../vendor/jquery/jquery-3.2.0.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>

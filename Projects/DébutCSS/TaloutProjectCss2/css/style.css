@@ -1,0 +1,42 @@
+header{
+    background-color: orange;
+    margin-bottom: 40px;
+}
+
+img.burger{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: 100px;
+    width: 100px;
+}
+.contact{
+    float: right;
+    margin-right: 15px;
+}
+
+li{
+    display: inline;
+    margin-right: 10px;
+    padding: 5px;
+}
+.width{
+    float: left;
+    width: 45%;
+}
+
+.center{
+   text-align: center;
+}
+#resize{
+    width: 90%;
+    height: 90%;
+}
+section{
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+div{
+    margin-left: 10px;
+}

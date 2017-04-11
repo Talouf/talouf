@@ -1,0 +1,119 @@
+html{
+    font-family: Tahoma, sans-serif;
+    font-size: 13px;
+    line:height: 18px;
+}
+body{
+}
+
+#wrapper{
+    width: 980px;
+    margin: auto;
+    border: 1px solid black;
+    padding: 15px;
+}
+header{
+    background-image: url(../img/top-bg.png);
+    border-bottom: 1px solid black;
+    padding: 16px; 
+    margin:-15px -15px 0px -15px;
+}
+header p{
+    float: right;  
+    padding-top: 16px; 
+}
+header span{
+    font-size: 13px;
+}
+#nogo ul{
+    padding-left: 5px;
+}
+#nogo li{
+    display: inline-block;
+    padding-right: 10px;
+}
+#nogo a{
+    text-decoration: none;
+    color: black;
+}
+#banner{
+    width:610px;
+}
+aside{
+    background-color: #efefef;
+    border: 2px dotted dodgerblue;
+    width: 305px;
+    float: right;
+    padding: 13px 13px 40px 13px;
+}
+aside h2{
+    font-weight: normal;
+    text-align: left; 
+}
+aside p{
+    text-align: left
+    
+}
+fieldset{
+    border: none;
+}
+fieldset{
+    padding-left: 0px;
+}
+form input{
+    padding: 5px;
+}
+#section-services{
+    overflow: hidden;
+}
+.block-service:hover{
+    background-color: lightblue;
+}
+#section-services .block-service{
+    width: 23%;  
+    float: left;
+    border: 1px solid black;
+    border-radius: 16px;
+    box-sizing: border-box;
+    margin-right: 2%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.block-service{
+    box-shadow: 10px 10px 5px #888888;
+}
+.block-service ul{
+    padding-left: 5px;
+    margin:5px 9px 0px 5px;
+}
+.block-service li{
+    display: inline-block; 
+    font-size: 12px;
+}
+
+.block-service h3{
+    background-image: url(../img/bullet.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    color: cadetblue;
+    font-size: 18px;
+    padding-left: 20px;
+    margin-bottom: 0px;
+}
+#page-footer{
+    background-image: url(../img/bottom-bg.png);
+    border-top: 1px solid black;
+    padding: 16px;
+    margin: -15px;
+}
+footer p{
+    display: inline-block;
+}
+footer a{
+    color:red;
+}
+footer #cards{
+    float: right;
+    padding: 8px;
+}
+ 

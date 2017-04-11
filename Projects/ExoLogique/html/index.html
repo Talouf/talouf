@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../vendor/bootstrap-3.3.7/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Title</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Link</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+    </nav>
+
+
+    <div class="jumbotron">
+        <div class="container">
+            <h1>When JavaScript loves CSS</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="container">
+            <div id="carre" class="col-md-2"></div>
+            <div class="col-md-4"></div>
+
+            <div class="col-md-6">
+                <p id="css"></p>
+                <div class="panel panel-default ">
+                    <div class="panel-heading">Mini Devtool</div>
+                    <div class="panel-body">
+                        <input id="prop" type="text" placeholder="Propriété css">
+                        <input id="val" type="text" placeholder="css value">
+
+                        <button type="button" class="btn btn-default">Ajouter</button>
+                        <p id="input-error"> Veuillez introduire les valeurs</p>
+                        <p id="value-error"> Erreur de valeurs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../vendor/jquery/jquery-3.2.0.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>

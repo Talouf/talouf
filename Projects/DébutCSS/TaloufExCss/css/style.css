@@ -1,0 +1,32 @@
+h1{
+    /*affichage de texte*/
+    color: rgb(255,69,69);
+    font-size: 80px;
+    font-style: italic;
+    font-weight: 900;
+    text-decoration: underline;
+    text-decoration-color: red;
+    /*affichage de la balise*/
+    background-color: yellow; 
+    text-align: center;
+    border: 1px solid blue;
+    padding: 6px;
+}
+div.inline{
+    display: inline;
+    border: 1px solid;
+    margin-left: 50px;
+}
+li{
+    display: inline-block;
+    background-color: blue;
+    padding: 5px;
+    width: 62px;
+    text-align: center;
+    margin-right: 10px;
+}
+.col-4{
+    width: 33.333%;
+    float: left;
+    display: inline-block;
+}

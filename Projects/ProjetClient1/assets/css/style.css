@@ -1,0 +1,113 @@
+@font-face{
+    font-family: 'Ubuntu';
+    src: url('../fonts/ubuntu-r-webfont.eot') format('embedded-opentype'),
+     url('../fonts/ubuntu-r-webfont.woff') format('woff'),
+     url('../fonts/ubuntu-r-webfont.ttf') format('truetype'),
+     url('../fonts/ubuntu-r-webfont.svg') format('svg'),
+     url('../fonts/ubuntu-r-webfont.woff2;') format('woff2');
+}
+body{
+    font-family: 'Ubuntu';
+    padding-top: 70px;
+}
+body .navbar {
+    border-radius: 0px;
+}
+body .col-md-2{
+    padding-right: 0px;
+}
+.col-md-2 .col-md-12{
+    text-align: right;
+    border: 1px solid rgba(128, 128, 128, 0.48);
+    padding: 3px;
+    border-radius: 3px;
+    width: 90%;
+}
+
+.col-md-12 img{
+    width: 100%;
+}
+
+.btn.btn-lg.btn-primary{
+    background-color: #f66e43;
+    border: none;
+}
+.blue {
+    background-color: #008be6;
+    color: white;
+    padding-bottom: 20px;
+}
+.marginbot {
+    margin-bottom: 40px;
+}  
+.mrg{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.col-md-5{
+    margin-right: -34px;
+}
+.col-md-5 img{
+    width: 32%;
+    padding: 10px;
+}
+
+.col-md-7 h2{
+    color: rgba(0, 0, 0, 0.79);
+    margin-top: 10px;
+}
+#borderevol {
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.72);
+    padding: 10px;
+}
+.contact {
+    padding-bottom: 10px;
+}
+form input {
+    margin-top: 3px;
+}
+input {
+    width: 100%;
+    border-radius: 3px;
+    border-style: none;
+    border: 1px solid rgba(128, 128, 128, 0.48);
+    padding-left: 10px;
+}
+textarea{
+    width: 100%;
+    border-radius: 3px;
+    border-style: none;
+    border: 1px solid rgba(128, 128, 128, 0.48);
+    padding-left: 10px;
+    
+}
+.col-md-4 select{
+    margin-top: 3px;
+}
+select{
+    width: 100%;
+    border-radius: 3px;
+    border-style: none;
+    border: 1px solid rgba(128, 128, 128, 0.48);
+    padding-left: 10px;
+}
+.col-md-4 select {
+    color: #685e5e;
+}
+.col-md-8 .btnsub {
+    margin-left: 20%;
+    border: none;
+    background-color: #f66e43;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.colorfooter{
+    background-color: darkblue;
+}
+ul {
+    margin-top: 20
+}

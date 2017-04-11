@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Talouf's Scripts</a>
+        </div>
+    </nav>
+    <div class="container-fluid text-center">
+
+        <!--function carré-->
+        <div>
+            <h3>fonction carré click me dans la console</h3> <br>
+            <button type="button" onclick="init()" class="btn btn-default">Click me click me </button>
+            <button type="button" onclick="code()" class="btn btn-default">Code </button> <br> <br> <br>
+        </div>
+        <!--function carré-->
+        <!--function carre span-->
+        <div>
+            <h3> Fonction carré click click boutton dans le span + code console </h3> <br>
+            <input type="number" id="nombre"> = <span id="resultatCarre"></span><br>
+            <button type="button" onclick="init2()" class="btn btn-default">Click me click me </button>
+            <button type="button" onclick="code2()" class="btn btn-default">Code </button> <br> <br> <br>
+        </div>
+        <!--fin function carre span-->
+        <!--Decompe 2-4-6-8-->
+        <div>
+            <h3>décompte 2 4 6 8 Console </h3><br>
+            <button type="button" onclick="init3()" class="btn btn-default">Click me click me </button>
+            <button type="button" onclick="code3()" class="btn btn-default">Code </button> <br> <br> <br>
+        </div>
+        <!--decompte 2-4-6-8 fin-->
+        <div>
+            <h3> fonction addition click click boutton dans le span + code console </h3> <br>
+            <input type="number" id="nombre2"> = <span id="resultatAddition"></span><br>
+            <button type="button" onclick="init4()" class="btn btn-default">Click me click me </button>
+            <button type="button" onclick="code4()" class="btn btn-default">Code </button> <br> <br> <br>
+        </div>
+        <div>
+            <!--soustraction-->
+            <h3> soustraction </h3> <br>
+            <input type="number" id="nombre3"> = <span id="resultatSoustraction"></span><br>
+            <button type="button" onclick="init5()" class="btn btn-default">Click me click me </button>
+            <button type="button" onclick="code5()" class="btn btn-default">Code </button> <br> <br> <br>
+        </div>
+
+        <div>
+            <!--division-->
+            <h3> fonction de division</h3> <br>
+            <input type="number" id="nombre4"> = <span id="resultatDivision"></span><br>
+            <button type="button" onclick="init6()" class="btn btn-default">Click me click me </button>
+            <button type="button" onclick="code6()" class="btn btn-default">Code </button> <br> <br> <br>
+        </div>
+
+        <div id="rouge"></div>
+        <div>
+            <!--calculatrice -->
+            <h3>calcultatrice</h3> <br>
+            <input type="number" id="nombre5"> <input type="number" id="nombre6">
+            <span id="resultatcalcul"></span><br>
+            <button type="button" id="add" class="btn btn-default operateur"> + </button>
+            <button type="button" id="soustr" class="btn btn-default operateur"> - </button>
+            <button type="button" id="divis" class="btn btn-default operateur"> / </button>
+            <button type="button" id="multip" class="btn btn-default operateur"> * </button>
+        </div>
+        <br><br><br>
+        <div>
+            <!--calculatrice 4boutons -->
+            <h3>Calcultatrice 1 + 1 = 2 </h3><br>
+            <input type="number" id="nombre7"> <input type="number" id="nombre8"> <button type="button" id="egal" class="btn btn-default">=</button>
+            <span id="resultatcc1"></span>
+            <br>
+            <button type="button" id="add2" class="btn btn-default">+</button>
+            <button type="button" id="soustr2" class="btn btn-default">-</button>
+            <button type="button" id="divis2" class="btn btn-default">/</button>
+            <button type="button" id="multip2" class="btn btn-default">*</button>
+        </div>
+        <br><br><br>
+
+        <div>
+            <!--Calculatrice#3-->
+            <h3>Calculator 3</h3><br><br>
+            <span id="preaffichage"></span><br>
+            <input type="text" id="num"> <button id="btn-egal">=</button> <span id="resultat"></span><br>
+            <button id="addition" class="operateur">+</button>
+            <button id="soustraction" class="operateur">-</button>
+            <button id="multiplication" class="operateur">*</button>
+            <button id="division" class="operateur">/</button>
+        </div> <br><br><br>
+
+        <div>
+            <h3>Calculator 4</h3> <br><br>
+            <span id="preaffichage2"></span> <br>
+            <input type="number" id="numero"><span id="resultat2"></span> <br>
+            <button type="button" value="7" class="btn btn-default chiffre">7</button>
+            <button type="button" value="8" class="btn btn-default chiffre">8</button>
+            <button type="button" value="9" class="btn btn-default chiffre">9</button>
+            <button type="button" value="+" class="btn btn-default operateur1">+</button><br>
+            <button type="button" value="4" class="btn btn-default chiffre">4</button>
+            <button type="button" value="5" class="btn btn-default chiffre">5</button>
+            <button type="button" value="6" class="btn btn-default chiffre">6</button>
+            <button type="button" value="-" class="btn btn-default operateur1">-</button><br>
+            <button type="button" value="1" class="btn btn-default chiffre">1</button>
+            <button type="button" value="2" class="btn btn-default chiffre">2</button>
+            <button type="button" value="3" class="btn btn-default chiffre">3</button>
+            <button type="button" value="*" class="btn btn-default operateur1">*</button><br>
+            <button type="button" value="0" class="btn btn-default chiffre">0</button>
+            <button type="button" value="/" class="btn btn-default operateur1">/</button><br>
+            <button type="button" value="=" class="btn btn-default" id="btnegal1">=</button>
+            <button type="button" value="c" class="btn btn-default" id="clear">C</button>
+            
+        </div>
+
+
+    </div>
+    <script src="../assets/js/jquery-3.2.0.min.js"></script>
+    <script src="../assets/js/bootstrap.js"></script>
+    <script src="../assets/js/j1.js"></script>
+    <script src="../assets/js/j2.js"></script>
+    <script src="../assets/js/j3.js"></script>
+    <script src="../assets/js/j4.js"></script>
+    <script src="../assets/js/j5.js"></script>
+</body>
+
+</html>

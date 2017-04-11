@@ -1,0 +1,20 @@
+#carre{
+    border: 1px solid black; 
+    width: 30px;
+    height: 30px;   
+}
+
+button.btn{
+    background-color: #dddddd;
+}
+.col-md-6{
+    padding-left: 100px;
+}
+#input-error{
+    color: red;
+    display: none;
+}
+#value-error{
+    display:none;
+    color: red;
+}

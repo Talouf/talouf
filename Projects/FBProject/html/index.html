@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../vendor/bootstrap-3.3.7/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../vendor/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" id="noti-all" class="dropdown-toggle" data-toggle="dropdown">Notifications <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" id="noti-like"><span id="Like"></span> Likes</a></li>
+                        <li><a href="#" id="noti-message"><span id="New Message"></span> Messages</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <!--Contenu des messages posté-->
+        <div id="all-message">
+            <div class="message">
+                <div class="auteur"></div>
+                <p class="bg-success"></p>
+                <div class="info-like">   
+            </div>
+        </div>
+        </div>
+        <!--Contenu des messages posté-->
+        
+       <!--forumlaire-->
+       
+       <form role="form">
+           <legend>Donnez votre avis</legend>
+       
+           <div class="form-group">
+               <label for="">nom</label>
+               <input type="text" class="form-control" id="username" placeholder="Indiquez votre nom">
+           </div>
+        <label for="">Votre message</label>
+        <textarea name="message" id="message" cols="30" rows="3" class="form-control"></textarea>    
+       
+           <button type="button" id="btn-send" class="btn btn-primary">Envoyer</button>
+       </form>
+       
+       <!--forumlaire-->
+    </div>
+    <script src="../vendor/jquery/jquery-3.2.0.min.js"></script>
+    <script src="../vendor/bootstrap-3.3.7/dist/js/bootstrap.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>

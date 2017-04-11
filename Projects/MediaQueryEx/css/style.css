@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+}
+    header{
+    background-color: #eaeaea;
+    margin-bottom: 25px;
+    border-bottom: 1px solid grey;
+    overflow: hidden;
+}
+.hdr p{
+    float: left;
+    margin: 0;
+}
+ul {
+    float: right;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px){
+    header{
+        width: 768px;
+        padding: 10px;
+    }
+    .bars{
+        padding-right: 25px;
+    }
+    .home, .contact{
+    display: none;
+}
+}
+
+ul li{
+    display: inline-block;
+}
+.container{
+    width: 768px;
+    margin: auto;
+    overflow: hidden;
+    text-align: center; 
+}
+.deux h1{
+    font-weight: 200;
+    font-size: 24px;
+}
+.deux p{
+    font-size: 14px;
+}
+.textcenter {
+    text-align: center;
+}
+.row {
+    overflow: hidden;
+}
+.social{
+    font-size: 70px;
+    color: cornflowerblue;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.fa.fa-instagram{
+    padding-right: 60px;
+    padding-left: 60px;
+}
+.fa.fa-twitter{
+    padding-right: 60px;
+    padding-left: 60px;
+}
+.fa.fa-facebook{
+    padding-right: 60px;
+    padding-left: 60px;
+}
+.fa.fa-github{
+    padding-right: 60px;
+    padding-left: 60px;
+}
+.placehold p{
+    text-align: left;
+    padding: 10px;
+}
+.placehold h1{
+    text-align: left;
+    padding: 10px;
+}
+
+@media screen and (min-width: 1200px){
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+}
+ header{
+    background-color: #eaeaea;
+    margin-bottom: 25px;
+    overflow: hidden;
+    border-bottom: 1px solid grey;
+    
+}
+    .container{
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.deux p{
+    font-size: 12px;
+}
+h1{
+    font-size: 26px;
+    font-weight: 200;
+    margin-bottom: 0;
+}
+.textcenter{
+    text-align: center;
+}
+ul li:first-child{
+    display: none;
+}
+ul {
+    float: right;
+    margin: 0;   
+}
+.home {
+    padding: 10px;
+    background-color: darkgray;
+}
+li:nth-child(3) {
+    padding-left: 20px;
+}
+li{
+    display: inline-block;
+}
+.hdr p{
+    float: left;
+    margin: 0;
+    padding: 10px;
+}
+.row{
+    overflow: hidden;
+}
+.fa.fa-instagram{
+    padding-right: 110px;
+    padding-left: 110px;
+}
+.fa.fa-twitter{
+    padding-right: 110px;
+    padding-left: 110px;
+}
+.fa.fa-facebook{
+    padding-right: 110px;
+    padding-left: 110px;
+}
+.fa.fa-github{
+    padding-right: 110px;
+    padding-left: 110px;
+}
+.col4{
+    width: 33.33%;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.col4 img{
+    border-radius: 200px;
+}
+.social{
+    color: cornflowerblue;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+.col3 img{
+    height: 200px;
+    width: 280px;
+}
+.col3{
+    width: 25%;
+    float: left;
+    overflow: hidden;
+}
+
